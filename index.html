@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Randy Token</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="/images/Randy-Icon.png" alt="Randy Mascot" class="mascot" />
+
+    <div class="hero-inner">
+      <h1 class="hero-title">RANDY</h1>
+      <p class="hero-tagline">We rule the trailer park now!</p>
+      <img src="/images/spray-paint-America.png" alt="America Graffiti" class="graffiti" />
+    </div>
+
+    <div class="hero-nav">
+      <a href="#about">ABOUT ME</a>
+      <a href="#tokonomics">TOKONOMICS</a>
+      <a href="#howtobuy">HOW TO BUY</a>
+    </div>
+  </section>
+
+  <!-- Scene Section -->
+  <section class="scene" id="about">
+    <img src="/images/scene-randy.png" alt="Randy eating pizza in the trailer park" />
+  </section>
+
+  <!-- Tokonomics Section -->
+  <section class="tokonomics" id="tokonomics">
+    <h2>Tokonomics</h2>
+    <div class="tokens">
+      <div class="token-box">Supply<br>60,000,000,000</div>
+      <div class="token-box">Taxes<br>0%</div>
+      <div class="token-box">Liquidity<br>Burnt</div>
+    </div>
+    <div class="contract-box">
+      0xABCDEF1234567890
+      <button class="copy-btn" onclick="copyContract()">Copy</button>
+    </div>
+  </section>
+
+  <!-- How to Buy Section -->
+  <section class="how-to-buy" id="howtobuy">
+    <h2>How to Buy</h2>
+    <div class="buy-steps">
+      <div class="step">Step 1: Install MetaMask and fund it with ETH.</div>
+      <div class="step">Step 2: Visit Uniswap and connect your wallet.</div>
+      <div class="step">Step 3: Swap ETH for $RANDY using our contract address.</div>
+      <div class="step">Step 4: Import the token into MetaMask.</div>
+    </div>
+    <button class="buy-btn">Buy Now</button>
+  </section>
+
+  <!-- Art Gallery -->
+  <section class="art-gallery">
+    <h2>Randy Art</h2>
+    <div class="gallery">
+      <img src="/images/randy-art-1.png" alt="Pose 1" />
+      <img src="/images/randy-art-2.png" alt="Pose 2" />
+      <img src="/images/randy-art-3.png" alt="Pose 3" />
+      <img src="/images/randy-art-4.png" alt="Pose 4" />
+      <img src="/images/randy-art-5.png" alt="Pose 5" />
+      <img src="/images/randy-art-6.png" alt="Pose 6" />
+      <img src="/images/randy-art-7.png" alt="Pose 7" />
+      <img src="/images/randy-art-8.png" alt="Pose 8" />
+      <img src="/images/randy-art-9.png" alt="Pose 9" />
+      <img src="/images/randy-art-10.png" alt="Pose 10" />
+      <img src="/images/randy-art-11.png" alt="Pose 11" />
+      <img src="/images/randy-art-12.png" alt="Pose 12" />
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <img src="/images/Randy-Icon.png" alt="Randy Small" class="footer-mascot" />
+      <div class="social-icons">
+        <img src="/images/telegram.png" alt="Telegram" />
+        <img src="/images/twitter.png" alt="Twitter" />
+        <img src="/images/dextools.png" alt="DexTools" />
+      </div>
+      <p class="disclaimer">Disclaimer: Randy is a meme token made just for fun!</p>
+    </div>
+  </footer>
+
+  <script>
+    function copyContract() {
+      const contract = "0xABCDEF1234567890";
+      navigator.clipboard.writeText(contract);
+      alert("Contract address copied!");
+    }
+  </script>
+</body>
+</html>
