@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Bangers', cursive;
-    background: url('/images/Green-BG.png') no-repeat center center fixed;
+    background: url('images/Green-BG.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
     position: relative;
@@ -12,7 +12,7 @@ body {
     content: "";
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-image: url('/images/Halftone-Texture.png');
+    background-image: url('images/Halftone-Texture.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
